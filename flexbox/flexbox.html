@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: #163144;
+  align-content: stretch;/*vertically eg flex stretch,baseline*/
+   /* justify-content: center, flex-start, space-around; *//*horizontally*/
+    align-items: stretch; 
+   flex-flow: row wrap;
+   /* flex-direction: row-reverse; */
+   /* flex-wrap: wrap; */
+}
+.flex-container > div {
+  background-color: #e4ebf0;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+  text-align: right;
+
+}
+</style>
+</head>
+<body>
+
+<h1>Flex Container</h1>
+
+<div class="flex-container">
+  <div style = "background-color: #ef1eb7;" >Tanzania</div>
+  <div style = "flex-grow:1" >Uganda</div>
+  <div style = "flex-grow:1; border-radius:20px;" >Kenya</div>
+  <div style="line-height: 1px;" >Ethiopia</div>
+  <div>Rwanda</div>
+  <div >Djibouti</div>
+  <!-- <div >Somalia</div>
+  <div >Burundi</div>
+  <div >South</div>
+  <div >Eritrea</div> -->
+</div>
+
+<p>A Flexible Layout  <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container that are flexible items.</p>
+
+</body>
+</html>
+
+
